@@ -1,0 +1,25 @@
+<?xml version= "1.0"?>
+<advertisements>
+	<ad>
+		<adurl>https://www.number1vpn.com/assets/getapp</adurl>
+		<topimage>https://homepages.cae.wisc.edu/~ece533/images/fruits.png</topimage>
+		<bottomcolor>52972c</bottomcolor>
+		<title>Voted #1 VPN service</title>
+		<description>Full Access to Censored Apps and Websites. 100% Secure and Anonymous. Fastest Speeds.</description>
+		<bottomtext>IPVanish</bottomtext>
+		<textbg>f6faf4</textbg>
+		<buttoncolor>363934</buttoncolor>
+		<buttontext>Upgrade Now</buttontext>
+	</ad>
+	<ad>
+		<adurl>https://www.number2vpn.com/assets/getnumber2app</adurl>
+		<topimage>https://homepages.cae.wisc.edu/~ece533/images/peppers.png</topimage>
+		<bottomcolor>52972c</bottomcolor>
+		<title>Voted #2 VPN service</title>
+		<description>Were better than #1 vpn service because we add way more features than them!</description>
+		<bottomtext>#2VPN</bottomtext>
+		<textbg>f6faf4</textbg>
+		<buttoncolor>363934</buttoncolor>
+		<buttontext>Try Us Now</buttontext>
+	</ad>
+</advertisements>

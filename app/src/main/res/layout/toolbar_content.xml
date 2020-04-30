@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/arrow_button"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="?attr/actionBarItemBackground"
+        android:clickable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/country_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:background="?attr/searchBackground"
+        android:clickable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/country"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+    </FrameLayout>
+
+    <include layout="@layout/search" />
+
+</LinearLayout>

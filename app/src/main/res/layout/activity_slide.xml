@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.SlideActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/slide_root"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:orientation="vertical">
+
+            <com.matthewtamlin.sliding_intro_screen_library.core.LockableViewPager
+                android:id="@+id/intro_activity_viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/activity_progressIndicatorHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/upgrade_topremium_button"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/light_blue_solid"
+                android:text="@string/upgrade_topremium_button"
+                android:textColor="@color/white" />
+
+
+            <Button
+                android:id="@+id/start_trial_button"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/light_blue_solid"
+                android:text="@string/start_trial"
+                android:textColor="@color/white" />
+
+
+            <Button
+                android:id="@+id/skip_button"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/transparent"
+                android:text="@string/skip"
+                android:textColor="@color/lighter_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="@string/noCommit"
+                android:textColor="@color/lighter_black"
+                android:textSize="@dimen/_10sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:background="@color/transparent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forMore"
+                    android:textColor="@color/lighter_black"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/tvPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/lighter_black"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:text="@string/and"
+                    android:textColor="@color/lighter_black"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/tvTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:text="@string/terms_conditions"
+                    android:textColor="@color/lighter_black"
+                    android:textSize="@dimen/_10ssp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
